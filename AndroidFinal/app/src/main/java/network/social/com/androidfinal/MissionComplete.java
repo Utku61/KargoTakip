@@ -28,7 +28,7 @@ public class MissionComplete extends AppCompatActivity {
     EditText ad, soyad, tckno, kargoUcret, alimTarih;
     private RequestQueue requestQueue;
     private String gorevler;
-    private String reportUrl = "http://192.168.43.203:8081/kargo/gorevliWS/setMissionCompleteReport/";
+    private String reportUrl = "http://----/kargo/gorevliWS/setMissionCompleteReport/";
     private Hashtable<String, String> parcalar;
 
     @Override
