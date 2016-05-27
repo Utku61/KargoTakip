@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidFinal</string>
+    <string name="marka">Kutu Kutu Kargo</string>
+    <string name="giris">Giriş</string>
+    <string name="email">Email Adresi</string>
+    <string name="sifre">Şifre</string>
+    <string name="customer_name"> AD</string>
+    <string name="customer_surname"> SOYAD                 </string>
+    <string name="customer_tc"> TCKNO                 </string>
+    <string name="cargo">KARGO ÜCRETİ   </string>
+    <string name="pay_date">ALIM TARİHİ        </string>
+    <string name="delivery">ONAYLA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

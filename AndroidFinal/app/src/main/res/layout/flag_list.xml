@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#00ffffff"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_row">
+
+            <TextView
+                android:background="@drawable/title_box"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Teslim edilmedi"
+                android:id="@+id/aliciSiparisDurum"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:paddingTop="12dp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="LargeText"
+                android:id="@+id/customer_first_last_name"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:paddingTop="4dp"
+                android:textColor="#00AAFE" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/customer_tc_no"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:paddingTop="4dp"
+                android:textColor="#00AAFE" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/cargo_pay"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:paddingTop="4dp"
+                android:textColor="#00AAFE" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
