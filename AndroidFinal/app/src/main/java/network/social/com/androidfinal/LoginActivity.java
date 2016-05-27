@@ -34,8 +34,8 @@ public class LoginActivity extends AppCompatActivity {
     private EditText userEmail,userPassword;
     Button login;
     private  RequestQueue requestQueue;
-    private String loginUrl="http://192.168.43.203:8081/kargo/gorevliWS/login/";
-    private String getTaskUrl="http://192.168.43.203:8081/kargo/gorevliWS/getCoordinats/";
+    private String loginUrl="http://--/kargo/gorevliWS/login/";
+    private String getTaskUrl="http://---/kargo/gorevliWS/getCoordinats/";
 
 
     @Override
