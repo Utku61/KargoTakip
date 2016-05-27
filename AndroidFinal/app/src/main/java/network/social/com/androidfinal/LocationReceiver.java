@@ -20,7 +20,7 @@ import org.json.JSONObject;
 
 public class LocationReceiver extends BroadcastReceiver {
     private RequestQueue requestQueue;
-    private String reportUrl="http://192.168.43.203:8081/kargo/gorevliWS/setHourlyLocationReport/";
+    private String reportUrl="http://---/kargo/gorevliWS/setHourlyLocationReport/";
 
 
     public LocationReceiver() {
